@@ -1,0 +1,120 @@
+
+.service_box {
+  border: 0.25px solid #ddd;
+  border-radius: 10px;
+  max-width: 750px;
+  margin: auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.book_me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF0F5;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.book_me h1 {
+  margin: 0;
+}
+
+.book_me button {
+  border-radius: 10px;
+  background-color: #5a8eb4;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.book_me button:hover {
+  background-color: #90caf9;
+}
+
+.title_style {
+  padding: 10px;
+  background-color: #FFF0F5;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.rate_chart,
+.terms_condition {
+  text-align: start;
+}
+
+.rate_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.rate_table th,
+.rate_table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.rate_table th {
+  background-color: #e1bee7;
+}
+
+.rate_table tr:hover {
+  background-color: #f3e5f5;
+}
+
+.highlight {
+  background-color: #f2f2f2;
+}
+
+.toggle_btn {
+  padding: 10px;
+  background-color: #5a8eb4;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.toggle-btn:hover {
+  background-color: #90caf9;
+}
+
+.terms_condition {
+  margin-top: 20px;
+}
+
+.terms_condition ol {
+  padding-left: 20px;
+}
+
+.customer_reviews
+ {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #e1bee7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.customer_reviews h2{
+  font-size: 20px;
+}
+.note{
+  font-style: italic;
+  
+}
+
+.review_box{
+  display: flex;
+  gap:100px;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

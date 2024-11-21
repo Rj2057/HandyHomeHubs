@@ -1,0 +1,132 @@
+/* General Navbar Styling */
+.navbar {
+  background-color: #e3f2fd;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 120px;
+  position: relative;
+  z-index: 10; /* Ensure it sits above the overlay */
+}
+
+/* Mobile-specific background overlay for expanded navbar */
+.navbar-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+  z-index: 5; /* Behind the navbar but above the content */
+}
+
+/* Show the overlay when navbar is toggled in mobile view */
+.navbar.show-overlay ~ .navbar-overlay {
+  display: block;
+}
+
+/* Logo Image Styling */
+.logo-img {
+  width: 120px;
+  height: 100px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+/* Nav Links Styling */
+.navbar-nav .nav-link {
+  color: #007bff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0056b3;
+}
+
+/* Active Nav Link Styling */
+.navbar-nav .nav-link.active {
+  color: #0056b3;
+  font-weight: bold;
+}
+
+/* Dropdown Styling */
+.Nav-Location {
+  background-color: #ffffff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #007bff;
+  cursor: pointer;
+  transition: border-color 0.3s ease, color 0.3s ease;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+/* Dropdown Hover Effect */
+.Nav-Location:hover {
+  border-color: #0056b3;
+  color: #0056b3;
+}
+
+/* Responsive Navbar Toggler */
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+/* Media Query to handle mobile-specific styles */
+@media (max-width: 992px) {
+  /* Adjust navbar toggler background when opened */
+  .navbar-collapse {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Overlay adjustments */
+  .navbar.show-overlay ~ .navbar-overlay {
+    display: block;
+  }
+}
+/* Navbar CSS */
+.navbar .nav-item button {
+  background-color: transparent;
+  border: 1px solid orange;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .nav-item button:hover {
+  background-color: orange;
+  color: white;
+}
+/* Additional styles for hover and button-like behavior */
+.nav-link {
+  cursor: pointer;
+  color: #333;
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #007bff;
+}
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,..."); /* Optional: custom icon */
+}
+.cart-icon{
+   height:35px;
+   width:40px;
+}

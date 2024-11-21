@@ -1,0 +1,48 @@
+/* Container */
+.privacyContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Title and Date */
+.privacyTitle {
+  font-size: 2rem;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.privacyDate {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+/* Section Title */
+.privacySection h2 {
+  font-size: 1.2rem;
+  color: #34495e;
+  margin-top: 20px;
+  border-left: 4px solid #2980b9;
+  padding-left: 10px;
+  transition: all 0.3s ease;
+}
+
+.privacySection h2:hover {
+  color: #2980b9;
+}
+
+/* Section Content */
+.privacySection p {
+  line-height: 1.6;
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #555;
+}

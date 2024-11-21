@@ -1,0 +1,93 @@
+
+.serviceSelect{
+  font-size:30px;
+  font-family:"Roboto";
+  color:crimson;
+  font-weight: 700;
+  text-align: center;
+  margin:200px 0 ;
+  position: relative;
+  letter-spacing: 2px;
+}
+.service-image{
+  width: 150px;
+  height: 150px;
+  border-radius:10px;
+}
+
+.serviceItem{
+  background-color:lavenderblush;
+  width:240px;
+  border-radius:20px;
+  text-align:center;
+  padding:15px;
+  margin:35px;
+  background-size: cover;
+}
+.wcu-heading{
+  text-align:center;
+  color:darkcyan;
+}
+.wcu-items{
+  text-align:center;
+  border-radius:20px;
+  width:300px;
+  font-family:"Roboto";
+  height:450px;
+  margin:20px;
+  background-size: cover;
+}
+.wcu-items-1{
+  text-align:center;
+  border-radius:20px;
+  width:300px;
+  font-family:"Roboto";
+  height:450px;
+  margin-top:20px;
+  margin-right:20px;
+  margin-bottom:20px;
+  margin-left:100px;
+  background-size: cover;
+}
+.Tech-Professional{
+  height:150px;
+  width:150px;
+  border-radius:16px;
+  margin:15px;
+}
+.wcu-items-heading{
+  font-size:28px;
+  margin-top:20px;
+}
+.wcu-items-para{
+  font-size:17px;
+}
+.WCU{
+  margin-top:100px;
+}
+.follow-us{
+  text-align:center;
+  margin-top:60px;
+}
+.icons{
+  height:100px;
+  width:100px;
+}
+
+.help-list li {
+  margin-bottom: 6px; /* Space between each link */
+}
+
+.help-link {
+  color: #ffffff; /* Link color white */
+  text-decoration: none;
+  font-size: 1rem;
+}
+.service_link{
+  color: #007bff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
